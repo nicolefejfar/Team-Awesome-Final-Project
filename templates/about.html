@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Here, just for grins, I'm populating the title with a parameter 
+         that gets specified in the call to render_template() in app.py. 
+         Go to app.py and see the '/other' route for details. -->
+    <title>{{title_we_want}}</title>
+
+    <!-- Import some CSS, just to show how it's done. -->
+    <link rel="stylesheet" type="text/css" href="static/style.css"></link>
+</head>
+
+<body>
+    <h2>These are our group members:</h2>
+    <ul>
+        <li>John Clark</li>
+        <li>Nicole Fejfar</li>
+        <li>Jason O'Day</li>
+        <li>Marianne Pagerit</li>
+    </ul>
+    <br>
+
+    <!-- take us back to the homepage using the route defined in app.py -->
+    <a href="/">Click here to return home!</a>
+</body>
+
+</html>
