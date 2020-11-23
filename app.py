@@ -4,12 +4,6 @@ from flask import render_template
 from flask import jsonify
 # from config import password
 
-# Import the functions we need from SQL Alchemy
-import sqlalchemy
-from sqlalchemy.ext.automap import automap_base
-from sqlalchemy.orm import Session
-from sqlalchemy import create_engine
-
 # Instantiate the Flask application. 
 app = Flask(__name__)
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0 # Effectively disables page caching
