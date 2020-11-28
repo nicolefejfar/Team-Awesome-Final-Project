@@ -9,19 +9,153 @@
          Go to app.py and see the '/other' route for details. -->
     <title>{{title_we_want}}</title>
 
-    <!-- Import some CSS, just to show how it's done. -->
-    <link rel="stylesheet" type="text/css" href="static/style.css"></link>
+    <meta charset="UTF-8">
+    <title>Team Awesome</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script src="https://kit.fontawesome.com/2dff8bdaf9.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <h2>These are our group members:</h2>
-    <ul>
-        <li>John Clark</li>
-        <li>Nicole Fejfar</li>
-        <li>Jason O'Day</li>
-        <li>Marianne Pagerit</li>
-    </ul>
-    <br>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    
+        <!-- Jumbotron -->
+        <div class="card card-image" style="background-image: url(https://cdn.pixabay.com/photo/2016/11/16/11/29/coupon-1828620_960_720.png);">
+          <div class="text-black text-center rgba-stylish-strong py-5 px-4">
+            <div class="py-5">
+    
+              <!-- Content -->
+              <h5 class="h5"><i class="fas fa-camera-retro"></i> Team Awesome</h5>
+              <h2 class="card-title h2 my-4 py-2">These Are Our Group Members</h2>
+              <p class="mb-4 pb-2 px-md-5 mx-md-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur obcaecati vero aliquid libero doloribus ad, unde tempora maiores, ullam, modi qui quidem minima debitis perferendis vitae cumque et quo impedit.</p>
+    
+    
+            </div>
+          </div>
+        </div>
+
+     <!--These col-md-3 columns go half wide when on a small screen and full on extra small-->
+    <div class="row">
+        <div class="col-sm-6 col-md-3">
+            <div class="card">
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Jason O'Day</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">SJU Graduate</li>
+                  <li class="list-group-item">MBA Holder</li>
+                  <li class="list-group-item">Career Contractor</li>
+                </ul>
+                <div class="card-body">
+                   <!-- Place this tag where you want the button to render. -->
+                    <a class="github-button" href="https://github.com/jeodaysju" data-size="large" aria-label="Follow @jeodaysju on GitHub">Follow@jeodaysju</a>
+                    <a href="https://linkedin.com" class="fab fa-linkedin"></a>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+            <div class="card">
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Marianne Pagerit</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Cras justo odio</li>
+                  <li class="list-group-item">Dapibus ac facilisis in</li>
+                  <li class="list-group-item">Vestibulum at eros</li>
+                </ul>
+                <div class="card-body"> 
+                    <a class="github-button" href="https://github.com/mpagerit" data-size="large" aria-label="Follow @mpagerit on GitHub">Follow@mpagerit</a>
+                    <a href="https://linkedin.com" class="card-link" >LinkedIn </a>
+                </div>
+              </div>
+        </div>
+    
+        <div class="col-sm-6 col-md-3">
+            <div class="card">
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Nicole Fejfar</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Cras justo odio</li>
+                  <li class="list-group-item">Dapibus ac facilisis in</li>
+                  <li class="list-group-item">Vestibulum at eros</li>
+                </ul>
+                <div class="card-body"> 
+                    <a class="github-button" href="https://github.com/nicolefejfar" data-size="large" aria-label="Follow @nicolefejfar on GitHub">Follow@nicolefejfar</a>
+                    <a href="https://linkedin.com" class="card-link">LinkedIn</a>
+                </div>
+              </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3">
+            <div class="card">
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">John Clark</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Cras justo odio</li>
+                  <li class="list-group-item">Dapibus ac facilisis in</li>
+                  <li class="list-group-item">Vestibulum at eros</li>
+                </ul>
+                <div class="card-body">
+                    <a class="github-button" href="https://github.com/JCClark1018" data-size="large" aria-label="Follow @JCClark1018 on GitHub">Follow@JCClark1018</a>
+                    <a href="https://linkedin.com" class="card-link">LinkedIn</a>
+                </button>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+    
+    
 
     <!-- take us back to the homepage using the route defined in app.py -->
     <a href="/">Click here to return home!</a>
