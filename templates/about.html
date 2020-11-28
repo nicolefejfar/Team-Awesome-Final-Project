@@ -21,7 +21,7 @@
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">Awesome Movies!</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -29,27 +29,14 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="http://127.0.0.1:5000">Home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
+                <a class="nav-link" href="http://127.0.0.1:5000/visualizations">Visualizations</a>
+              </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              <a class="nav-link" href="http://127.0.0.1:5000/about">About Us</a>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
@@ -78,7 +65,7 @@
     <div class="row">
         <div class="col-sm-6 col-md-3">
             <div class="card">
-                <img class="card-img-top" src="..." alt="Card image cap">
+                <img class="card-img-top" src="{{url_for('static',filename='theme_pics/jasons_bio_pic.jpg')}}" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Jason O'Day</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -103,13 +90,13 @@
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
                 <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Cras justo odio</li>
+                  <li class="list-group-item">Cras justo odio check 1,2</li>
                   <li class="list-group-item">Dapibus ac facilisis in</li>
                   <li class="list-group-item">Vestibulum at eros</li>
                 </ul>
                 <div class="card-body"> 
                     <a class="github-button" href="https://github.com/mpagerit" data-size="large" aria-label="Follow @mpagerit on GitHub">Follow@mpagerit</a>
-                    <a href="https://linkedin.com" class="card-link" >LinkedIn </a>
+                    <a href="https://linkedin.com" class="fab fa-linkedin"></a>
                 </div>
               </div>
         </div>
@@ -128,14 +115,14 @@
                 </ul>
                 <div class="card-body"> 
                     <a class="github-button" href="https://github.com/nicolefejfar" data-size="large" aria-label="Follow @nicolefejfar on GitHub">Follow@nicolefejfar</a>
-                    <a href="https://linkedin.com" class="card-link">LinkedIn</a>
+                    <a href="https://linkedin.com" class="fab fa-linkedin"></a>
                 </div>
               </div>
         </div>
 
         <div class="col-sm-6 col-md-3">
             <div class="card">
-                <img class="card-img-top" src="..." alt="Card image cap">
+                <img class="card-img-top" src="{{url_for('static',filename='theme_pics/johnpic.jpg')}}" alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title">John Clark</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -147,7 +134,7 @@
                 </ul>
                 <div class="card-body">
                     <a class="github-button" href="https://github.com/JCClark1018" data-size="large" aria-label="Follow @JCClark1018 on GitHub">Follow@JCClark1018</a>
-                    <a href="https://linkedin.com" class="card-link">LinkedIn</a>
+                    <a href="https://linkedin.com" class="fab fa-linkedin"></a>
                 </button>
                 </div>
               </div>

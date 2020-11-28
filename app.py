@@ -20,6 +20,11 @@ def AboutRoute():
     webpage = render_template("about.html", title_we_want="About Us")
     return webpage
 
+@app.route("/visualizations")
+def VisRoute():
+    webpage = render_template("visualizations.html", title_we_want="Visualizations")
+    return webpage
+
 # final required code for flask server
 if __name__ == '__main__':
     app.run(debug=True)
