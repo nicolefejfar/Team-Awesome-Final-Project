@@ -18,10 +18,14 @@
 	• Bootstrap & CSS
 	• Tableau
 	• scikit-learn
+	• Flask
 	• Heroku
 	
 ## Instructions to run code
-	• 
+	• In Jupyter notebook run 'dataClean.ipynb' first to generate moviesClean.csv. This file was too large to push to repo.
+	• Run 'Classification Neural Network.ipynb' to generate the models
+	• If testing code, run the '2021 Prediction Web Scraping.ipynb', however the file this produces is in the repo
+	• Run '2021 Predictions.ipynb' to generate the predictions
 	
 ## Data Sources
 [Historical movie data](https://www.kaggle.com/stefanoleone992/imdb-extensive-dataset?select=IMDB-Movie-Data.csv)<br>
