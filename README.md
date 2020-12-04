@@ -8,17 +8,17 @@ https://teamawesome-movies.herokuapp.com/
 	• Marianne Pagerit
 	
 ## Project Summary
-	• 
+	• Analyze historical movie data using neural networks to predict future movies' critical and box office success 
 	
 ## Technologies
 	• Python
 		• Beautiful Soup
 		• Pandas
+		• Numpy
 	• Bootstrap & CSS
 	• Tableau
-	• scikit-learn???
-	• Heroku???
-	• Other???
+	• scikit-learn
+	• Heroku
 	
 ## Instructions to run code
 	• 
