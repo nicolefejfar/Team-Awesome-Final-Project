@@ -1,5 +1,5 @@
 #  2021 Movie Predictions using a Neural Network
-https://teamawesome-movies.herokuapp.com/
+[Visit our website](https://teamawesome-movies.herokuapp.com/)
 
 ## Team Members
 	• John Clark
