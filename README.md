@@ -24,7 +24,7 @@ https://teamawesome-movies.herokuapp.com/
 	• 
 	
 ## Data Sources
-	• Historical movie data: https://www.kaggle.com/stefanoleone992/imdb-extensive-dataset?select=IMDB-Movie-Data.csv
+	• [Historical movie data](https://www.kaggle.com/stefanoleone992/imdb-extensive-dataset?select=IMDB-Movie-Data.csv)
 	• 2021 Movie data: https://www.imdb.com/list/ls070080072/
 	• Criteria to qualify movie profitibility: https://io9.gizmodo.com/how-much-money-does-a-movie-need-to-make-to-be-profitab-5747305
 	• [Criteria to qualify critic success](https://www.metacritic.com/about-metascores#:~:text=Metacritic%20designates%20a%20movie%20as,section%20of%20the%20best%20cri)
