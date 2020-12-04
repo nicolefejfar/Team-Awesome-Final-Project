@@ -1,4 +1,5 @@
 #  2021 Movie Predictions using a Neural Network
+## Website: https://teamawesome-movies.herokuapp.com/
 
 ## Team Members
 	• John Clark
@@ -9,8 +10,7 @@
 ## Project Summary
 	• 
 
-## Link to Project Website
-	• 
+
 	
 ## Technologies
 	• Python
@@ -19,6 +19,7 @@
 	• Bootstrap & CSS
 	• Tableau
 	• scikit-learn???
+	• Heroku???
 	• Other???
 	
 ## Instructions to run code
