@@ -20,32 +20,32 @@ key,key2,original_title,year,Actual,Predicted
 1520,109,Cheap Thrills,2013,0.0,1.0
 1307,110,Lana's Rain,2002,1.0,0.0
 1070,114,La Casa Lobo,2018,0.0,1.0
-1550,117,Love and Other Catastrophes,1996,0.0,1.0
+1550,117,Love and Other Catastrophes,1996,0.0,0.0
 1117,121,Sugar Town,1999,0.0,0.0
-1159,122,Chuck & Buck,2000,1.0,0.0
-147,123,American Desi,2001,0.0,1.0
+1159,122,Chuck & Buck,2000,1.0,1.0
+147,123,American Desi,2001,0.0,0.0
 1564,131,Like Crazy,2011,0.0,1.0
 28,138,Repulsion,1965,1.0,1.0
-724,141,Mad Max,1979,0.0,0.0
+724,141,Mad Max,1979,0.0,1.0
 1501,144,God's Army,2000,1.0,1.0
 1540,150,Duck,2005,0.0,0.0
 957,154,3 Backyards,2010,0.0,0.0
 968,161,The Evil Dead,1981,1.0,0.0
 573,165,Twist,2003,0.0,0.0
-141,169,Mine 9,2019,1.0,0.0
+141,169,Mine 9,2019,1.0,1.0
 1009,170,Catfight,2016,0.0,1.0
 1050,172,The Maltese Falcon,1941,0.0,0.0
 1235,175,...E tu vivrai nel terrore! L'aldilà,1981,0.0,1.0
 250,179,Quinceañera,2006,1.0,1.0
 1247,180,The Amazing Truth About Queen Raquela,2008,0.0,1.0
 1463,181,The Killing Jar,2010,0.0,1.0
-1224,187,The Dogwalker,2002,0.0,0.0
+1224,187,The Dogwalker,2002,0.0,1.0
 1135,188,La Nana,2009,1.0,1.0
-308,197,I Smile Back,2015,0.0,0.0
+308,197,I Smile Back,2015,0.0,1.0
 961,202,Johnny Suede,1991,0.0,0.0
 314,204,Twin Falls Idaho,1999,0.0,1.0
 1413,211,Whisky,2004,0.0,0.0
-119,212,Bomb the System,2002,0.0,1.0
+119,212,Bomb the System,2002,0.0,0.0
 420,217,Lonesome Jim,2005,0.0,0.0
 115,231,To Save a Life,2009,1.0,0.0
 901,238,Yossi,2012,1.0,1.0
@@ -66,12 +66,12 @@ key,key2,original_title,year,Actual,Predicted
 994,283,Bigger Than the Sky,2005,0.0,0.0
 311,287,Aqua Teen Hunger Force Colon Movie Film for Theaters,2007,0.0,1.0
 188,296,Mother of George,2013,0.0,0.0
-1023,298,American Graffiti,1973,1.0,1.0
+1023,298,American Graffiti,1973,1.0,0.0
 714,299,Saints and Soldiers,2003,0.0,1.0
 255,306,Welcome to the Dollhouse,1995,0.0,1.0
 687,312,Død snø,2009,0.0,0.0
 1403,313,The Disappearance of Alice Creed,2009,0.0,0.0
-623,319,Touch of Evil,1958,0.0,1.0
+623,319,Touch of Evil,1958,0.0,0.0
 1253,322,Latter Days,2003,1.0,1.0
 691,326,A Green Story,2012,0.0,0.0
 1169,329,The Circus,1928,0.0,1.0
@@ -108,7 +108,7 @@ key,key2,original_title,year,Actual,Predicted
 1060,475,Friday the 13th Part 2,1981,1.0,1.0
 552,477,Desert Hearts,1985,1.0,0.0
 793,481,Rebecca,1940,1.0,1.0
-1165,482,The Last Picture Show,1971,1.0,0.0
+1165,482,The Last Picture Show,1971,1.0,1.0
 1373,484,Trees Lounge,1996,1.0,0.0
 1518,485,Gummo,1997,0.0,0.0
 438,487,The Basket,1999,0.0,0.0
@@ -121,7 +121,7 @@ key,key2,original_title,year,Actual,Predicted
 385,522,Cabin Fever,2002,0.0,0.0
 1548,523,The Burial Society,2002,0.0,1.0
 1532,527,November,2004,1.0,1.0
-21,532,Shiza,2004,0.0,0.0
+21,532,Shiza,2004,0.0,1.0
 136,539,Waitress,2007,0.0,0.0
 44,546,Pontypool,2008,0.0,0.0
 538,551,Persecuted,2014,0.0,0.0
@@ -138,7 +138,7 @@ key,key2,original_title,year,Actual,Predicted
 1586,598,The Last Exorcism,2010,0.0,0.0
 580,603,River's Edge,1986,0.0,0.0
 4,606,Xing fu shi guang,2000,0.0,1.0
-366,607,Northfork,2003,0.0,1.0
+366,607,Northfork,2003,0.0,0.0
 496,611,To Kill a Mockingbird,1962,0.0,0.0
 268,612,From Russia with Love,1963,0.0,0.0
 58,614,Bananas,1971,0.0,1.0
@@ -178,17 +178,17 @@ key,key2,original_title,year,Actual,Predicted
 1131,745,The Super,2017,1.0,0.0
 984,753,Lazer Team,2015,0.0,0.0
 1155,755,Breakfast at Tiffany's,1961,1.0,1.0
-669,766,The Lair of the White Worm,1988,1.0,0.0
+669,766,The Lair of the White Worm,1988,1.0,1.0
 1392,776,The Mystic Masseur,2001,0.0,1.0
 611,779,All the Real Girls,2003,1.0,1.0
 181,787,Vitus,2006,0.0,1.0
 1160,795,Multiple Sarcasms,2010,0.0,0.0
-705,798,Line of Duty,2013,0.0,0.0
+705,798,Line of Duty,2013,0.0,1.0
 1384,804,About Cherry,2012,0.0,1.0
 1584,808,Hell Baby,2013,0.0,0.0
-217,811,Stung,2015,1.0,0.0
+217,811,Stung,2015,1.0,1.0
 727,813,Singin' in the Rain,1952,1.0,1.0
-867,815,Pinocchio,1940,0.0,0.0
+867,815,Pinocchio,1940,0.0,1.0
 287,819,Los cronocrímenes,2007,0.0,0.0
 662,820,Vincent N Roxxy,2016,0.0,0.0
 1156,828,The Monster,2016,0.0,0.0
@@ -197,12 +197,12 @@ key,key2,original_title,year,Actual,Predicted
 492,842,Phoenix Forgotten,2017,0.0,0.0
 1576,845,The Longest Yard,1974,1.0,0.0
 636,847,Black Dynamite,2009,0.0,0.0
-81,849,The Treasure of the Sierra Madre,1948,0.0,1.0
+81,849,The Treasure of the Sierra Madre,1948,0.0,0.0
 33,850,The Bridge on the River Kwai,1957,1.0,1.0
 1297,851,"Suddenly, Last Summer",1959,0.0,1.0
 72,855,The Sword in the Stone,1963,0.0,0.0
 1578,860,Beneath the Planet of the Apes,1970,1.0,1.0
-1494,862,Serpico,1973,0.0,1.0
+1494,862,Serpico,1973,0.0,0.0
 1287,864,The Sugarland Express,1974,0.0,0.0
 1534,872,More American Graffiti,1979,0.0,1.0
 1230,873,Motel Hell,1980,0.0,1.0
@@ -210,7 +210,7 @@ key,key2,original_title,year,Actual,Predicted
 684,888,I'm Gonna Git You Sucka,1988,0.0,0.0
 389,890,Heathers,1989,1.0,1.0
 1298,905,Blackwoods,2001,1.0,1.0
-186,916,My Big Fat Independent Movie,2005,0.0,0.0
+186,916,My Big Fat Independent Movie,2005,0.0,1.0
 1328,923,The Groomsmen,2006,0.0,1.0
 895,928,Frontière(s),2007,0.0,1.0
 1122,931,Choke,2008,0.0,0.0
@@ -229,7 +229,7 @@ key,key2,original_title,year,Actual,Predicted
 756,978,L'insulte,2017,0.0,0.0
 501,982,The Ultimate Life,2013,1.0,1.0
 1399,983,North by Northwest,1959,0.0,1.0
-82,990,Beginners,2010,1.0,0.0
+82,990,Beginners,2010,1.0,1.0
 1317,992,The Meddler,2015,1.0,1.0
 196,997,Bella,2006,0.0,0.0
 1217,1000,Relatos salvajes,2014,0.0,0.0
@@ -242,7 +242,7 @@ key,key2,original_title,year,Actual,Predicted
 943,1024,Taxman,1998,0.0,0.0
 1163,1026,Cotton Mary,1999,0.0,1.0
 870,1028,Whale Rider,2002,0.0,0.0
-582,1030,Ju-on,2002,0.0,1.0
+582,1030,Ju-on,2002,0.0,0.0
 1079,1034,Tamara,2005,0.0,0.0
 342,1036,Then She Found Me,2007,1.0,1.0
 1504,1037,Ira & Abby,2006,1.0,0.0
@@ -250,7 +250,7 @@ key,key2,original_title,year,Actual,Predicted
 792,1045,Dark Skies,2013,0.0,1.0
 1519,1052,Midnight Cowboy,1969,1.0,1.0
 1232,1059,The Outlaw Josey Wales,1976,1.0,1.0
-694,1061,Tonari no Totoro,1988,1.0,0.0
+694,1061,Tonari no Totoro,1988,1.0,1.0
 587,1064,Hounddog,2007,0.0,1.0
 1544,1068,The Good Heart,2009,0.0,0.0
 881,1081,The Jungle Book,1967,0.0,0.0
@@ -263,11 +263,11 @@ key,key2,original_title,year,Actual,Predicted
 763,1098,They Live,1988,1.0,0.0
 592,1102,South Central,1992,0.0,1.0
 206,1107,The Loss of Sexual Innocence,1999,0.0,0.0
-1377,1115,The Rules of Attraction,2002,0.0,0.0
+1377,1115,The Rules of Attraction,2002,0.0,1.0
 102,1117,Boksuneun naui geot,2002,0.0,0.0
 589,1118,Thumbsucker,2005,1.0,1.0
 1406,1130,December Boys,2007,1.0,0.0
-958,1135,Tennessee,2008,1.0,0.0
+958,1135,Tennessee,2008,1.0,1.0
 1513,1140,Red State,2011,0.0,0.0
 1227,1142,The Objective,2008,1.0,0.0
 192,1144,Adult World,2013,0.0,1.0
@@ -294,7 +294,7 @@ key,key2,original_title,year,Actual,Predicted
 98,1235,Swiss Family Robinson,1960,1.0,1.0
 1198,1238,The Return of the Pink Panther,1975,1.0,0.0
 667,1239,Tommy,1975,0.0,0.0
-858,1240,Every Which Way but Loose,1978,1.0,1.0
+858,1240,Every Which Way but Loose,1978,1.0,0.0
 246,1241,Force 10 from Navarone,1978,0.0,0.0
 1394,1250,Diner,1982,0.0,1.0
 556,1256,April Fool's Day,1986,0.0,0.0
@@ -339,7 +339,7 @@ key,key2,original_title,year,Actual,Predicted
 1351,1392,The Green Inferno,2013,1.0,0.0
 1074,1398,"As Above, So Below",2014,1.0,1.0
 1422,1402,Incarnate,2016,0.0,1.0
-1456,1406,Pali Road,2015,1.0,1.0
+1456,1406,Pali Road,2015,1.0,0.0
 349,1416,Woodshock,2017,1.0,1.0
 1424,1417,It Comes at Night,2017,1.0,1.0
 244,1422,Tesla,2020,1.0,1.0
@@ -368,7 +368,7 @@ key,key2,original_title,year,Actual,Predicted
 40,1501,To Live and Die in L.A.,1985,0.0,0.0
 1102,1505,Hoosiers,1986,0.0,0.0
 329,1506,Lucas,1986,0.0,0.0
-874,1508,Dirty Dancing,1987,1.0,0.0
+874,1508,Dirty Dancing,1987,1.0,1.0
 599,1509,The Fourth Protocol,1987,1.0,1.0
 996,1517,Mystic Pizza,1988,0.0,0.0
 796,1520,Lionheart,1990,1.0,1.0
